@@ -1,7 +1,7 @@
 # ---------------------------------------------------------------------------------------------------------------------
-# DEPLOY A HYPERLEDGER FABRIC ORDERER AND ANCHOR AND INTERNAL PEER NODES FOR AN ORGANIZATION IN AWS.
-# This is an example of how to use the orderer and peer modules to deploy the Hyperledger Fabric components for an 
-# organization in AWS.
+# DEPLOY A HYPERLEDGER FABRIC ORDERER, ANCHOR AND INTERNAL PEER NODES, ACM-PCA AND CLOUDHSM FOR AN ORGANIZATION IN AWS.
+# This is an example of how to use the orderer and peer modules together with ACM-PCA and CloudHSM 
+# to deploy the Hyperledger Fabric components for an organization in AWS.
 # ---------------------------------------------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------------------------------------------
