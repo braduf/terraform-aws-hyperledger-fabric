@@ -1,1 +1,1 @@
-
+The PKI module uses both the acm-pca and cloud-hsm modules to generate, store, manage and use the keys and certificates for the Hyperledger Fabric components. If you want to use a CA other than ACM-PCA or a HSM service other than CloudHSM you should not use this module.
