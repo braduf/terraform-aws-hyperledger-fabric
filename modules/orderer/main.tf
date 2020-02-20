@@ -15,13 +15,19 @@ resource "aws_instance" "server" {
   ami           = data.aws_ami.linux.id
   instance_type = var.server_instance_type
 
-  // Add tags
+  tags = {
+    Name        = ""
+    Environment = var.environment
+  }
 }
 
 resource "aws_eip" "public_ip" {
   instance = aws_instance.server.id
 
-  // Add tags
-  // NodeType tag
+  tags = {
+    Name        = ""
+    NodeType    = "Orderer"
+    Environment = var.environment
+  }
 }
 
