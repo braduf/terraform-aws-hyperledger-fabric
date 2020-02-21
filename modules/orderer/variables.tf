@@ -13,3 +13,9 @@ variable "server_instance_type" {
   type        = string
   default     = "t2.micro"
 }
+
+variable "environment" {
+  description = "The environment the server of the orderer"
+  type        = string
+  default     = "dev"
+}
